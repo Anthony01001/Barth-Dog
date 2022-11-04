@@ -1,0 +1,31 @@
+@charset "UTF-8";
+@media screen and (min-width:300px ) and (max-width:600px ){
+    h1{
+        margin: 10px;
+    }
+ .hamburguer{
+    background-size: contain;
+    width:80vw ;
+} 
+.hamburguer1{
+    width: 80vw;
+}#branco >h2{
+    width: 200px;
+}#branco >h2:hover{
+    width: 70vw;
+    transition-duration:.7s;
+}#preto >h2{
+    width: 200px;
+}#preto >h2:hover{
+    width:70vw;
+    background-color: #ec2e2e;
+    transition-duration:.7s;
+}#preto >h2:active{
+    background-image: linear-gradient(to right, red, yellow);
+}#preto1 >h2{
+    width: 200px;
+}#preto1 >h2:hover{
+    width: 250px;
+}
+
+}

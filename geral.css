@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    overflow-x: hidden;
+}
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to bottom, red,yellow);
+    background-attachment: fixed;
+}h1{
+    margin: 10px;
+}h2{
+    margin: 15px;
+    padding: 10px;
+   
+}.para{
+    border-radius: 15px 15px 0px 0px;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-top: 5px;
+    color: black;
+}.para1{
+   
+    color: black;
+}
+p{  display: block;
+    background-color: white;
+    font-size: medium;
+    text-indent: 4px; 
+    text-align: start;
+    border-radius: 0px 0px 15px 15px;
+    padding-left: 5px;
+    padding:10px;
+} .valor{
+    background-color: rgb(241, 50, 50);
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5px;
+}.valor:hover{
+    background-image:linear-gradient(o right,#ec2e2e,transparent);
+    
+}.valor1{
+    background-color: #ec2e2e;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 15px;
+   
+    padding: 5px;
+    
+}
+.logo{
+    display: block;
+    padding-top: 15px;
+    margin: auto;
+    border-radius: 50%;
+}
+main{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.644);
+    width: 600px;
+    border-radius: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 15px;
+}
+ .hamburguer{
+    width:500px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 2px 2px 7px black;
+} .hamburguer1{
+    width:500px ;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 7px black;    
+    border-radius: 0px 0px 20px 20px;
+
+}#branco >h2{
+    display: inline-block;
+    margin-top: 5px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 7px black;
+    width: 300px;
+} #preto{
+    background-color: #ddd64cad;
+    
+   
+}#preto >h2{
+    display: inline-block;
+    margin-top: 5px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+    width: 300px;
+    cursor: pointer;
+}
+#preto1{
+    background-color:rgb(226, 226, 113);
+    border-radius: 0px 0px 20px 20px;
+    
+  
+}#preto1 >h2{
+    display: inline-block;
+    
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+    text-align: center;
+   
+    width: 250px;
+    cursor: pointer;
+    margin-top: 1px;
+    margin-bottom: 5px;
+}#preto1 >h2:hover{
+    background-color: #ec2e2e;
+    width:450px;
+    transition-duration:.7s;
+}#preto1 >h2:active{
+    background-image:linear-gradient(to right, red, yellow);
+
+}
+#preto  >h2:hover{
+    background-color: red;
+    width:450px;
+    transition-duration:.7s;
+}
+#preto >h2:active{
+    background-image:linear-gradient(to right, red, yellow);
+}
+#branco >h2:hover{
+    background-color: rgba(253, 253, 8, 0.89);
+    cursor: pointer;
+    width:450px;
+    transition-duration:.7s;
+}#branco >h2:active{
+    background-image:linear-gradient(to left, red, yellow);
+     } footer{
+        background-color: black;
+        height: 70px;
+     }footer > section > a > img{
+        margin: auto;
+        width: 50px;
+        padding: 5px;
+        border-radius: 50%;
+        
+     }
+    
